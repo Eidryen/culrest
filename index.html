@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CULREST</title>
+    <link rel="shortcut icon" href="" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="imagen/favicon.png">
+    <script src="js/all.min.js"></script>
+</head>
+<body>
+
+<!-- Redes Sociales -->
+<div class="container-fluid social-container py-3 bg-dark">
+    <div class="d-flex justify-content-center social-icons gap-5">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="social-link">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-link">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:info@culrest.com" aria-label="Correo Electrónico" class="social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-link">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark sticky-top py-3">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center logo-container" href="#home">
+            <img src="imagen/logo.png" alt="Logo" class="logo me-2">
+            <span class="text-warning fw-bold">CULREST</span>
+        </a>
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light position-relative custom-link" href="#home">
+                        <i class="fas fa-home me-2"></i>HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light position-relative custom-link" href="#nosotros">
+                        <i class="fas fa-info-circle me-2"></i>NOSOTROS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light position-relative custom-link" href="#platos">
+                        <i class="fas fa-utensils me-2"></i>PLATOS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light position-relative custom-link" href="#reservacion">
+                        <i class="fas fa-calendar-alt me-2"></i>RESERVACIÓN
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Carrusel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+  </div>
+  <div id="home" class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="imagen/1.png" class="d-block w-100 carousel-image" alt="Imagen 1">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Descubre nuestra sazón</h5>
+              <p>Explora lo mejor de la cocina peruana moderna.</p>
+              <a href="#reservacion" class="btn btn-warning">Explorar</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="imagen/2.png" class="d-block w-100 carousel-image" alt="Imagen 2">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Calidad garantizada</h5>
+              <p>Platos preparados con los ingredientes más frescos.</p>
+              <a href="#nosotros" class="btn btn-warning">Conócenos</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="imagen/3.png" class="d-block w-100 carousel-image" alt="Imagen 3">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Experiencia única</h5>
+              <p>Deléitate con sabores auténticos y únicos.</p>
+              <a href="#contactos" class="btn btn-warning">Contáctanos</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="imagen/4.png" class="d-block w-100 carousel-image" alt="Imagen 4">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Eventos Especiales</h5>
+              <p>Organiza tus momentos inolvidables con nosotros.</p>
+              <a href="#testimonios" class="btn btn-warning">Testimonios</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="imagen/5.png" class="d-block w-100 carousel-image" alt="Imagen 5">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Sabores Únicos</h5>
+              <p>Un viaje gastronómico que no te puedes perder.</p>
+              <a href="#platos" class="btn btn-warning">Descubrir</a>
+          </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Sección de Bienvenida -->
+<section class="container-fluid text-center bg-dark text-light d-flex align-items-center" style="height: 300px;">
+    <div class="container position-relative">
+        <!-- Título con líneas decorativas -->
+        <h1 class="text-warning fw-bold display-4 mb-3 animated-title">BIENVENIDO A CULREST</h1>
+        <p class="fs-5 animated-paragraph">
+            Descubre una experiencia culinaria única, donde la tradición peruana se mezcla con un toque moderno. 
+            Disfruta de nuestra propuesta gastronómica en un ambiente cálido y sofisticado.
+        </p>
+    </div>
+</section>
+
+<!-- Sección de Historia -->
+<section id="nosotros" class="container-fluid bg-dark text-light py-5">
+    <div class="container">
+        <div class="row g-0 align-items-center">
+            <!-- Imagen -->
+            <div class="col-md-6">
+                <div class="animated-img">
+                    <img src="imagen/12.png" alt="Historia de CULREST" class="img-fluid rounded shadow">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="p-4 animated-text">
+                    <h2 class="text-warning fw-bold display-5 mb-3">Acerca de Nosotros</h2>
+                    <p class="fs-5">
+                        En <span class="text-warning">CULREST</span>, nuestra pasión por la cocina peruana moderna nos ha llevado a combinar lo mejor de nuestras tradiciones con un toque innovador.
+                    </p>
+                    <p class="fs-5">
+                        Nos esforzamos en ofrecer una experiencia culinaria única, donde cada plato cuenta una historia y cada detalle refleja nuestra dedicación a la excelencia.
+                    </p>
+                    <p class="fs-5">
+                        Con ingredientes frescos y recetas auténticas, somos el destino perfecto para quienes buscan disfrutar de la rica gastronomía peruana en un ambiente cálido y moderno.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Video -->
+<section id="video" class="container-fluid py-5 bg-dark text-light">
+    <div class="container text-center">
+        <h1 class="text-warning fw-bold display-5 mb-4 animated-title">Conoce un poco más</h1>
+        <p class="fs-5 mt-3 animated-paragraph">
+            Con un conocido youtuber que visitó exclusivamente nuestro restaurante para deleitarse con nuestra sazón.
+        </p>
+        <div class="d-flex justify-content-center">
+            <div class="video-container rounded shadow-lg animated-video hover-effect">
+                <iframe 
+                    src="https://www.youtube.com/embed/j9_fUBr512Q" 
+                    title="YouTube video player" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Tarjetas con Animaciones Mejoradas -->
+<section id="platos" class="container-fluid py-5 bg-dark text-light">
+    <div class="container text-center">
+        <h2 class="text-warning fw-bold display-5 mb-4 animated-title">NUESTROS PLATOS</h2>
+        <p class="fs-5 mb-5 animated-paragraph">
+            Disfruta de nuestra selección de platos peruanos, preparados con ingredientes frescos y nuestra sazón única.
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Arroz Árabe
+                    </div>
+                    <img src="imagen/6.jpg" class="card-img-top rounded-top card-img" alt="Arroz Árabe">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Sabor Exótico</h5>
+                        <p class="card-text">Un arroz especiado con un toque único que deleita los sentidos.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Arroz con Carne
+                    </div>
+                    <img src="imagen/7.jpg" class="card-img-top rounded-top card-img" alt="Arroz con Carne">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Plato Reconfortante</h5>
+                        <p class="card-text">Un clásico que combina carne jugosa con arroz sazonado.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Locro de Zapallo
+                    </div>
+                    <img src="imagen/8.jpg" class="card-img-top rounded-top card-img" alt="Locro de Zapallo">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Tradición y Nutrición</h5>
+                        <p class="card-text">Un guiso peruano a base de zapallo, nutritivo y lleno de sabor.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Mondonguito a la Italiana
+                    </div>
+                    <img src="imagen/9.jpg" class="card-img-top rounded-top card-img" alt="Mondonguito a la Italiana">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Delicia Tradicional</h5>
+                        <p class="card-text">Un plato emblemático con sabores intensos y tradicionales.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Picante de Carne
+                    </div>
+                    <img src="imagen/10.jpg" class="card-img-top rounded-top card-img" alt="Picante de Carne">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Un Toque de Picante</h5>
+                        <p class="card-text">Carne tierna cocinada con especias para un sabor intenso.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col animated-card">
+                <div class="card bg-dark text-light border-warning shadow-card">
+                    <div class="card-header text-warning fw-bold text-center">
+                        Pollo al Horno con Puré
+                    </div>
+                    <img src="imagen/11.jpg" class="card-img-top rounded-top card-img" alt="Pollo al Horno con Puré">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Clásico y Delicioso</h5>
+                        <p class="card-text">Un plato jugoso acompañado de un puré cremoso.</p>
+                        <a href="#" class="btn btn-warning btn-custom">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonios -->
+  <section id="testimonios" class="container-fluid py-5 bg-dark text-light">
+    <div class="container text-center">
+        <h2 class="text-warning fw-bold display-5 mb-4 line-hover">CLIENTES QUE NOS RECOMIENDAN</h2>
+        <p class="fs-5 mb-5">
+            Lee lo que nuestros clientes dicen sobre su experiencia en nuestro restaurante.
+        </p>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-5 d-flex align-items-center animate-slide-in">
+                            <div class="card bg-dark text-light border-warning shadow flex-row h-100">
+                                <img src="imagen/13.png" class="img-fluid rounded-start card-img" alt="Cliente 1">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-warning">Ana Gómez</h5>
+                                    <p class="card-text">
+                                        "La experiencia fue inolvidable. El Lomo Saltado es espectacular."
+                                    </p>
+                                    <p class="text-warning">★★★★★</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex align-items-center animate-slide-in">
+                            <div class="card bg-dark text-light border-warning shadow flex-row h-100">
+                                <img src="imagen/14.png" class="img-fluid rounded-start card-img" alt="Cliente 2">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-warning">Carlos Herrera</h5>
+                                    <p class="card-text">
+                                        "El mejor lugar para disfrutar de la cocina peruana moderna."
+                                    </p>
+                                    <p class="text-warning">★★★★★</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-5 d-flex align-items-center animate-slide-in">
+                            <div class="card bg-dark text-light border-warning shadow flex-row h-100">
+                                <img src="imagen/15.png" class="img-fluid rounded-start card-img" alt="Cliente 3">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-warning">María López</h5>
+                                    <p class="card-text">
+                                        "La atención fue excelente, y los anticuchos deliciosos."
+                                    </p>
+                                    <p class="text-warning">★★★★★</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex align-items-center animate-slide-in">
+                            <div class="card bg-dark text-light border-warning shadow flex-row h-100">
+                                <img src="imagen/16.png" class="img-fluid rounded-start card-img" alt="Cliente 4">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-warning">Luis Fernández</h5>
+                                    <p class="card-text">
+                                        "El tacu tacu es el mejor que he probado."
+                                    </p>
+                                    <p class="text-warning">★★★★★</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Reservacion -->
+<section id="reservacion" class="container-fluid py-5 bg-dark text-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="text-warning fw-bold display-5 line-title">REGÍSTRATE PARA UNA RESERVACIÓN</h2>
+            <p class="fs-5 mt-3">
+                Completa el formulario y nuestro equipo se pondrá en contacto contigo para confirmar tu reservación.
+            </p>
+        </div>
+        <form action="/reservar" method="post" class="needs-validation" novalidate>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre completo" required>
+                    <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="phone" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Ingresa tu número de teléfono" required>
+                    <div class="invalid-feedback">Por favor, ingresa un número de teléfono válido.</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                    <div class="invalid-feedback">Por favor, ingresa un correo válido.</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="date" class="form-label">Fecha de la Reserva</label>
+                    <input type="date" class="form-control" id="date" name="date" required>
+                    <div class="invalid-feedback">Por favor, selecciona una fecha.</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="people" class="form-label">Número de Personas</label>
+                    <input type="number" class="form-control" id="people" name="people" placeholder="Ej. 4" required>
+                    <div class="invalid-feedback">Por favor, ingresa el número de personas.</div>
+                </div>
+                <div class="col-md-12">
+                    <label for="message" class="form-label">Mensaje (Opcional)</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="¿Algo que deberíamos saber?"></textarea>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-warning btn-lg">Reservar Ahora</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Pie de Pagina -->
+<footer class="bg-black text-light pt-5">
+    <div class="container-fluid h-100">
+        <div class="row">
+            <div class="col-md-4 animate-fade-in">
+                <img src="imagen/logo.png" alt="Logo CULREST" class="mb-3" style="width: 150px;">
+                <h5 class="text-warning fw-bold">Sobre Nosotros</h5>
+                <p class="mt-3">
+                    En CULREST combinamos la tradición de la cocina peruana con un toque moderno. Ofrecemos experiencias culinarias únicas para nuestros clientes.
+                </p>
+                <p class="text-warning">© 2024 CULREST. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-4 animate-slide-in">
+                <h5 class="text-warning fw-bold">Enlaces Útiles</h5>
+                <ul class="list-unstyled mt-3">
+                    <li><a href="#home" class="text-light text-decoration-none footer-link">Home</a></li>
+                    <li><a href="#platos" class="text-light text-decoration-none footer-link">Platos</a></li>
+                    <li><a href="#testimonios" class="text-light text-decoration-none footer-link">Testimonios</a></li>
+                    <li><a href="#reservacion" class="text-light text-decoration-none footer-link">Reservacion</a></li>
+                </ul>
+            </div>
+            <div id="contactos" class="col-md-4 animate-fade-in">
+                <h5 class="text-warning fw-bold">Contáctanos</h5>
+                <p class="mt-3">
+                    📍 Dirección: Av. Perú 123, Lima, Perú <br>
+                    📞 Teléfono: +51 987 654 321 <br>
+                    ✉️ Email: info@culrest.com
+                </p>
+                <div class="d-flex mt-3 gap-4">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="social-link">
+                        <i class="fab fa-tiktok fa-lg"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-link">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="mailto:info@culrest.com" aria-label="Correo Electrónico" class="social-link">
+                        <i class="fas fa-envelope fa-lg"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-link">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="border-secondary my-4 animate-line">
+        <div class="text-center animate-fade-in">
+            <p class="mb-0">Diseñado con ❤️ por el equipo de CULREST</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/inicio.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
